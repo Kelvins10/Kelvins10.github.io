@@ -1,37 +1,82 @@
-## Welcome to GitHub Pages
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>RAWR</title>
+    <link rel="shortcut icon" href="img/bx-video.svg" type="image/x-icon">
+    <link rel="stylesheet" href="style/style.css">
+    <link rel="stylesheet" href="style/Home/Aliados.css">
+    <link rel="stylesheet" href="style/Home/Nosotros.css">
+    <link rel="stylesheet" href="style/Home/MisionVision.css">
+    <link rel="stylesheet" href="style/Home/Address.css">
+    <link rel="stylesheet" href="style/Footer.css">
+    <link rel="stylesheet" href="style/navegation.css">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,700,800&display=swap" rel="stylesheet"> 
+    <script src="https://kit.fontawesome.com/7e2e448006.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <header class="header">
+        <div class="container">
+            <div class="header-main">
+                <div class="logo">
+                    <!-- <a href="#">Logo</a> -->
+                    <a href="index.html"><img src="img/LogoAIChE.png" alt="LogoAIChE"></a>
+                </div>
+                <div class="open-nav-menu">
+                    <span></span>
+                </div>
+                <div class="menu-overlay">
+                </div>
+                <!-- navigation menu start -->
+                <nav class="nav-menu">
+                <div class="close-nav-menu">
+                    <img src="img/exit.png" alt="close">
+                </div>
+                <ul class="menu">
+                    <li class="menu-item">
+                        <a href="index.html">Inicio</a>
+                    </li>
+                    <li class="menu-item">
+                        <a href="competencias.html">Fotos</a>
+                    </li>
+                    <li class="menu-item">
+                        <a href="ponentes.html">Frases</a>
+                    </li>
+                </ul>
+                </nav>
+                <!-- navigation menu end -->
+            </div>
+        </div>
+    </header>
+    <main>
+        <section class="contenedor sobre-nosotros">
+            <h2 class="titulo">Te amo con todo mi corazón</h2>
+            <div class="contenedor-sobre-nosotros">
+                <img src="img/home/img2.jpg" alt="" class="img-about-us">
+                <div class="contenido-textos">
+                    <p>Amor de mi vida, otro día a tu lado, lleno de felicidad y amor. ¿Sabes? Me haces la persona más feliz del mundo, me encanta tenerte a mi lado, compartir momentos contigo, me encanta verte sonreir, atesoro cada momento que paso contigo, no quiero que esto acabe nunca, sabes que yo siempre estarépara ti mi amor, MUAH, beshito.</p>
+                    <h3>Nuestra fecha:</h3>
+                    <p>19/05</p>
+                </div>
+            </div>
+        </section>
+        
 
-You can use the [editor on GitHub](https://github.com/Kelvins10/Kelvins10.github.io/edit/main/index.md) to maintain and preview the content for your website in Markdown files.
-
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
-
-### Markdown
-
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
-
-```markdown
-Syntax highlighted code block
-
-# Header 1
-## Header 2
-### Header 3
-
-- Bulleted
-- List
-
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
-```
-
-For more details see [Basic writing and formatting syntax](https://docs.github.com/en/github/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/Kelvins10/Kelvins10.github.io/settings/pages). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://docs.github.com/categories/github-pages-basics/) or [contact support](https://support.github.com/contact) and we’ll help you sort it out.
+        <section class="address">
+            <div class="contenedor-address">
+                <div class="address-cnt-ind">
+                    <h2>Un día juntos</h2>
+                    <p>Un 4 de Junio fuimos juntos a la UDEP, fue bonito conocer la universidad contigo, aunque me cansé mucho jaja Te amo muuucho.</p>
+                    <video width="100%" height="auto" controls src="img/video.mp4"></video>
+                </div>
+                <div class="address-cnt-ind">
+                    <img src="./img/img3.jpg" width=100%></img>
+                </div>
+            </div>
+        </section>
+    </main>
+</body>
+<script defer src="script/navegation.js"></script>
+</html>
